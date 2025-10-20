@@ -36,3 +36,4 @@ test('get started link1', async ({ page }) => {
 
 
 console.log("mudei algo")
+console.log("Polling Test")
