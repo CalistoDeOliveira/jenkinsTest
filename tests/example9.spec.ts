@@ -33,3 +33,6 @@ test('get started link1', async ({ page }) => {
   // Expects page to have a heading with the name of Installation.
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 });
+
+
+console.log("mudei algo")
