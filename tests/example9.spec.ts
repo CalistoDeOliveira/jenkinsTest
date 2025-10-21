@@ -1,4 +1,10 @@
 import { test, expect } from '@playwright/test';
+import { defineConfig, devices } from '@playwright/test';
+
+export default defineConfig({
+  reporter: [['junit', { outputFile: 'results/results.xml' }]],
+});
+
 
 test('has title', async ({ page }) => {
   await page.goto('https://playwright.dev/');
